@@ -1,11 +1,70 @@
-{
-  "name": "Shirubia Studio",
-  "short_name": "Shirubia",
-  "start_url": "index.html",
-  "display": "standalone",
-  "background_color": "#121212",
-  "theme_color": "#5B2D8B",
-  "permissions": [
-    "audio-capture"
-  ]
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #121212;
+  color: #f2f2f2;
+}
+
+/* LOGIN */
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  text-align: center;
+  width: 280px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #1e1e1e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #5B2D8B;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* HOME */
+header {
+  text-align: center;
+  padding: 30px;
+}
+
+.profile img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 2px solid #C9B27C;
+  object-fit: cover;
+}
+
+.cards {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.card {
+  background: #1e1e1e;
+  padding: 26px;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #333;
 }
