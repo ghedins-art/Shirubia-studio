@@ -1,0 +1,11 @@
+{
+  "name": "Shirubia Studio",
+  "short_name": "Shirubia",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#5B2D8B",
+  "permissions": [
+    "audio-capture"
+  ]
+}
