@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Shirubia Studio – Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login">
+
+  <div class="login-box">
+    <h1>Shirubia Studio</h1>
+    <p>Il tuo rifugio creativo</p>
+
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Entra</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
